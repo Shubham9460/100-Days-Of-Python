@@ -29,5 +29,7 @@ What's the next number? 👉 8
 Type 'y' to continue with 32.0, or 'n' to start new:
 
 How to Run
-1) cd Calculator
-2) python3 main.py
+*open calculator folder
+*open tarminal
+*type "cd Calculator"
+* next -> "python3 main.py"
