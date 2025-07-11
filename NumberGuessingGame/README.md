@@ -28,7 +28,5 @@ Try to guess the number chosen by the computer within limited attempts based on 
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/YourUsername/number-guessing-game.git
 cd NumberGuessingGame
 python3 main.py
