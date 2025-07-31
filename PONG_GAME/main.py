@@ -1,5 +1,5 @@
 from turtle import Screen
-from PONA_GAME.scorboard import Scorboard
+from PONG_GAME.scorboard import Scorboard
 from ball import Ball
 from paddle import Paddle
 import time
