@@ -32,14 +32,15 @@ while game_is_on:
         scorboard.increase_score()
 # detect wall
     if snake.head.xcor() > 290 or snake.head.xcor()  < -290 or snake.head.ycor()  > 290 or snake.head.ycor()  < -290:
-        game_is_on = False
-        scorboard.game_over()
+        scorboard.restart()
+        snake.reset()
 
 # detect head
     for segment in snake.segment[1:]:
         if snake.head.distance(segment) < 10:
-            game_is_on = False
-            scorboard.game_over()
+            scorboard.restart()
+            snake.reset()
+
 
 
 
